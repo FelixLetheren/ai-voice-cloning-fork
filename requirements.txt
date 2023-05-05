@@ -1,0 +1,9 @@
+git+https://github.com/openai/whisper.git
+
+more-itertools
+ffmpeg-python
+gradio
+music-tag
+voicefixer
+psutil
+phonemizer
