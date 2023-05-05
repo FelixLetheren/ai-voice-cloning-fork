@@ -1,8 +1,6 @@
 # ignores user files
 /venv/
-/voices/*
 /models/*
-/training/*
 /config/*
 
 # Byte-compiled / optimized / DLL files

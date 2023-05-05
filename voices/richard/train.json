@@ -1,0 +1,21 @@
+{
+	"epochs": 50,
+	"learning_rate": 0.0001,
+	"mel_lr_weight": 1,
+	"text_lr_weight": 0.01,
+	"learning_rate_scheme": "Multistep",
+	"learning_rate_schedule": "[2, 4, 9, 18, 25, 33, 50, 59]",
+	"learning_rate_restarts": 4,
+	"batch_size": 128,
+	"gradient_accumulation_size": 4,
+	"save_rate": 5,
+	"validation_rate": 5,
+	"half_p": false,
+	"bitsandbytes": false,
+	"validation_enabled": false,
+	"workers": 2,
+	"gpus": 1,
+	"source_model": "./models/tortoise/autoregressive.pth",
+	"resume_state": "",
+	"voice": "richard"
+}
